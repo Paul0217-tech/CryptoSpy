@@ -1,0 +1,40 @@
+
+.navbar {
+    box-shadow:1px 1px 5px 1px#CFCFCF;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.title-style {
+    margin-left: 12%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #2D85FF;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 12%;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #5C5C5C;
+}
+
+.connect-wallet-style {
+    border: 2px solid #2D85FF;
+    color: #2D85FF;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+

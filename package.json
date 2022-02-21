@@ -1,0 +1,15 @@
+{
+  "name": "cryptospy",
+  "version": "1.0.0",
+  "description": "Enables user to have an advantage in spying and sniping new tokens in the binance smart chain and Ethereum Mainnet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SeekNDestroy",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "web3": "^1.7.0"
+  }
+}
