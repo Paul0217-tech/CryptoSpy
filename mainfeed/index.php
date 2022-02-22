@@ -8,6 +8,7 @@ if(isset($_SESSION['wallet_address'])){
 
 <!-- index.php user account -->
 
+<h1>Hello World!</h1>
 
 <!-- check subscription -->
 <script src='../js/checkSubscription.js'></script>
