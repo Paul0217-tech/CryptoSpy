@@ -33,3 +33,57 @@
       transform: rotate(360deg);
    }
 }
+
+.blockdevice {
+   display: none;
+}
+
+/* for mobile devices */
+
+@media (max-width: 1024px){
+
+   .blockdevice {
+      display: block;
+      z-index: 999;
+      height: 100%;
+      width: 100%;
+      padding: 50% 0;
+      position: absolute;
+      top: 0;
+      background-color: white;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+   }
+
+   /* loader animation. */
+.loader-1 {
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+   background-color: white;
+   position: absolute;
+}
+
+.loader-1>div {
+   height: 100px;
+   width: 100px;
+   border: 15px solid #45474b;
+   border-top-color: #2a88e2;
+   position: absolute;
+   margin: auto;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   border-radius: 50%;
+   animation: spin 1.5s infinite linear;
+
+}
+
+@keyframes spin {
+   100% {
+      transform: rotate(360deg);
+   }
+}
+}

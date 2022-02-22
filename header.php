@@ -21,6 +21,16 @@
         <div></div>
     </div>
 
+
+    <!-- block users for mobile Phones -->
+
+    <div class="blockdevice">
+        This Site can only be used in Laptops and PCs'
+        <div class="loader-1">
+            <div></div>
+        </div>
+    </div>
+
     <div class="Container">
         <div class="navbar">
         <span class="title-style">
